@@ -91,7 +91,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4f8e43389323ebc4088e6024097ca0dc, type: 2}
+      objectReference: {fileID: 2100000, guid: 99d65b31d4970f647b65fe2da3054d12, type: 2}
     - target: {fileID: 8149786477034183990, guid: abce06e1430974c46a3dcaddd1625d26,
         type: 3}
       propertyPath: Rotten

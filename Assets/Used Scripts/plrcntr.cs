@@ -38,8 +38,8 @@ public class plrcntr : MonoBehaviour
                 Destroy(collision.gameObject);
                 //Boom = GetComponent<AudioSource>();
                 Boom.Play();
-                Instantiate(HitSmoke, collision.transform.position, Quaternion.identity);
-                new WaitForSeconds(2f);
+                //Instantiate(HitSmoke, collision.transform.position, Quaternion.identity);
+                
             }
  
         }
@@ -90,21 +90,21 @@ public class plrcntr : MonoBehaviour
     public void ResetPlayer()
     {
         isRotten = false;
-        GetComponent<Renderer>().sharedMaterial = Normmat;
+        //GetComponent<Renderer>().sharedMaterial = Normmat;
         transform.position = startPos;
-        Impulse = 5;
-        Disolve = 0;
+        //Impulse = 5;
+        //Disolve = 0;
         StopCoroutine(Rot());
     }
 
     public void Rottenfruit()
     {
         Rotten.Play();
-        GetComponent<Renderer>().sharedMaterial = Rottenmat;
-        Impulse = 0;
+        //GetComponent<Renderer>().sharedMaterial = Rottenmat;
+        //Impulse = 0;
         isRotten = true;
-        Instantiate(RotSmoke, RB.position, Quaternion.identity);
-        StartCoroutine(Rot());
+        //Instantiate(RotSmoke, RB.position, Quaternion.identity);
+        //StartCoroutine(Rot());
     }
 
     IEnumerator Rot()
