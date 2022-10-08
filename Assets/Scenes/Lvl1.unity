@@ -525,11 +525,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RB: {fileID: 444804128}
   Impulse: 5
+  Rottenmat: {fileID: 0}
+  Normmat: {fileID: 0}
+  isRotten: 0
   Boom: {fileID: 693563646}
   Bounce: {fileID: 1361623770}
   Rotten: {fileID: 658444003}
   CameThrough: 0
   isBigHit: 0
+  RotSmoke: {fileID: 8060366202053720721, guid: d0939559a6ceb0d4c880ef4a6b62c44c,
+    type: 3}
+  HitSmoke: {fileID: 6932944956726820659, guid: 0f1490c15ec8c1c48975b8a4f2f888b1,
+    type: 3}
 --- !u!54 &444804128
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1162,11 +1169,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RB: {fileID: 1197370410}
   Impulse: 5
+  Rottenmat: {fileID: 0}
+  Normmat: {fileID: 0}
+  isRotten: 0
   Boom: {fileID: 0}
   Bounce: {fileID: 0}
   Rotten: {fileID: 0}
   CameThrough: 0
   isBigHit: 0
+  RotSmoke: {fileID: 0}
+  HitSmoke: {fileID: 0}
 --- !u!1 &1361623769
 GameObject:
   m_ObjectHideFlags: 0
